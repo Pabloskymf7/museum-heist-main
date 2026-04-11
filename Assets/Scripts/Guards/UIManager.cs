@@ -4,29 +4,34 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    [SerializeField] private GameObject gameOverPanel;
-    [SerializeField] private GameObject victoryPanel;
-    [SerializeField] private Button retryButton;
-    [SerializeField] private Button nextLevelButton;
-    [SerializeField] private Button mainMenuButton;
+    private GameObject gameOverPanel;
+    private GameObject victoryPanel;
+    private Button retryButton;
+    private Button nextLevelButton;
+    private Button mainMenuButton;
 
     private void Awake()
-{
-    // Fallback por si las referencias se pierden
-    if (mainMenuButton == null)
-        mainMenuButton = GameObject.Find("MainMenuButton")?.GetComponent<Button>();
-    if (retryButton == null)
-        retryButton = GameObject.Find("RetryButton")?.GetComponent<Button>();
-    if (nextLevelButton == null)
-        nextLevelButton = GameObject.Find("NextLevelButton")?.GetComponent<Button>();
+    {
+        gameOverPanel   = FindByName("GameOverPanel");
+        victoryPanel    = FindByName("VictoryPanel");
+        retryButton     = FindByName("RetryButton")?.GetComponent<Button>();
+        nextLevelButton = FindByName("NextLevelButton")?.GetComponent<Button>();
+        mainMenuButton  = FindByName("MainMenuButton")?.GetComponent<Button>();
 
-    gameOverPanel?.SetActive(false);
-    victoryPanel?.SetActive(false);
+        gameOverPanel?.SetActive(false);
+        victoryPanel?.SetActive(false);
 
-    retryButton?.onClick.AddListener(OnRetry);
-    nextLevelButton?.onClick.AddListener(OnNextLevel);
-    mainMenuButton?.onClick.AddListener(OnMainMenu);
-}
+        retryButton?.onClick.AddListener(OnRetry);
+        nextLevelButton?.onClick.AddListener(OnNextLevel);
+        mainMenuButton?.onClick.AddListener(OnMainMenu);
+    }
+
+    private GameObject FindByName(string name)
+    {
+        foreach (Transform t in FindObjectsByType<Transform>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+            if (t.name == name) return t.gameObject;
+        return null;
+    }
 
     public void ShowGameOver() => gameOverPanel?.SetActive(true);
     public void ShowVictory()  => victoryPanel?.SetActive(true);

@@ -3,15 +3,13 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
 public class GuardVision : MonoBehaviour
 {
-    [Header("Vision Settings")]
-    [SerializeField] private float viewAngle = 60f;
-    [SerializeField] private float viewDistance = 2f;
-    [SerializeField] private int rayCount = 30;
-    [SerializeField] private LayerMask playerLayer;
-    [SerializeField] private LayerMask obstacleLayer;
+    public float viewAngle = 60f;
+    public float viewDistance = 2f;
+    public int rayCount = 30;
+    public LayerMask playerLayer;
+    public LayerMask obstacleLayer;
 
-    [Header("References")]
-    [SerializeField] private GuardAI guardAI;
+    private GuardAI guardAI;
 
     private Mesh visionMesh;
 
@@ -27,8 +25,7 @@ public class GuardVision : MonoBehaviour
         };
         meshRenderer.sortingOrder = 1;
 
-        if (guardAI == null)
-            guardAI = GetComponentInParent<GuardAI>();
+        guardAI = GetComponentInParent<GuardAI>();
     }
 
     private void LateUpdate()

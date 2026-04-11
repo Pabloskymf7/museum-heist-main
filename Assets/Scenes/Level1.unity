@@ -238,8 +238,6 @@ MonoBehaviour:
   suspicionTime: 0.5
   alertSpeed: 4
   loseSightTime: 3
-  alertIndicator: {fileID: 0}
-  visionTransform: {fileID: 1511758086}
 --- !u!50 &33198119
 Rigidbody2D:
   serializedVersion: 5
@@ -323,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41683981}
   - component: {fileID: 41683980}
+  - component: {fileID: 41683982}
   m_Layer: 0
   m_Name: furniture pack grey outline_244 (1)
   m_TagString: Untagged
@@ -403,6 +402,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &41683982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41683979}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &75365110
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,6 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 358597693}
   - component: {fileID: 358597692}
+  - component: {fileID: 358597694}
   m_Layer: 0
   m_Name: furniture pack grey outline_244 (2)
   m_TagString: Untagged
@@ -1281,6 +1327,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &358597694
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358597691}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &374436899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +1473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 378829817}
   - component: {fileID: 378829816}
+  - component: {fileID: 378829818}
   m_Layer: 0
   m_Name: furniture pack grey outline_244 (4)
   m_TagString: Untagged
@@ -1461,6 +1554,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &378829818
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378829815}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &391698581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1682,6 +1821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462674055}
   - component: {fileID: 462674054}
+  - component: {fileID: 462674056}
   m_Layer: 0
   m_Name: furniture pack grey outline_81
   m_TagString: Untagged
@@ -1762,6 +1902,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &462674056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462674053}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.18}
+    newSize: {x: 0.34, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.18}
+  m_EdgeRadius: 0
 --- !u!1 &515136278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,6 +1958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515136280}
   - component: {fileID: 515136279}
+  - component: {fileID: 515136281}
   m_Layer: 0
   m_Name: furniture pack grey outline_244 (5)
   m_TagString: Untagged
@@ -1852,6 +2039,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &515136281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515136278}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2089,6 +2322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 539057830}
   - component: {fileID: 539057829}
+  - component: {fileID: 539057831}
   m_Layer: 0
   m_Name: furniture pack grey outline_244
   m_TagString: Untagged
@@ -2169,6 +2403,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &539057831
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539057828}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &569260100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,7 +3000,6 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 128
-  guardAI: {fileID: 0}
 --- !u!23 &643326855
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3226,6 +3505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688871145}
   - component: {fileID: 688871144}
+  - component: {fileID: 688871146}
   m_Layer: 0
   m_Name: furniture pack grey outline_244 (3)
   m_TagString: Untagged
@@ -3306,6 +3586,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &688871146
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688871143}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.14}
+    newSize: {x: 0.34, y: 0.14}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.14}
+  m_EdgeRadius: 0
 --- !u!1 &694952716
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,7 +3687,6 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 128
-  guardAI: {fileID: 0}
 --- !u!23 &694952719
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4031,6 +4356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874972016}
   - component: {fileID: 874972015}
+  - component: {fileID: 874972017}
   m_Layer: 0
   m_Name: furniture pack grey outline_269
   m_TagString: Untagged
@@ -4111,6 +4437,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &874972017
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874972014}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.16}
+    newSize: {x: 0.18, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.18, y: 0.16}
+  m_EdgeRadius: 0
 --- !u!1 &883736284
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,8 +4602,6 @@ MonoBehaviour:
   suspicionTime: 0.5
   alertSpeed: 4
   loseSightTime: 3
-  alertIndicator: {fileID: 0}
-  visionTransform: {fileID: 1743552601}
 --- !u!50 &883736288
 Rigidbody2D:
   serializedVersion: 5
@@ -4609,6 +4979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 945958585}
   - component: {fileID: 945958584}
+  - component: {fileID: 945958586}
   m_Layer: 0
   m_Name: furniture pack grey outline_131
   m_TagString: Untagged
@@ -4689,6 +5060,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &945958586
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945958583}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.34, y: 0.18}
+    newSize: {x: 0.34, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.34, y: 0.18}
+  m_EdgeRadius: 0
 --- !u!1 &959979418
 GameObject:
   m_ObjectHideFlags: 0
@@ -5226,8 +5643,8 @@ Transform:
   m_GameObject: {fileID: 1091217876}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.99999124, w: 0.004196081}
-  m_LocalPosition: {x: -2.54, y: 2.86, z: 0}
-  m_LocalScale: {x: 0.10094912, y: 1.4528053, z: 1.0265}
+  m_LocalPosition: {x: -2.54, y: 2.42, z: 0}
+  m_LocalScale: {x: 0.10094912, y: 0.75304705, z: 1.0265}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 711862816}
@@ -5589,7 +6006,7 @@ Transform:
   m_GameObject: {fileID: 1197065684}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.098465, y: 3.4880536, z: 0}
+  m_LocalPosition: {x: -0.09, y: 3.4880536, z: 0}
   m_LocalScale: {x: 5.3500004, y: 4.095, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6011,7 +6428,7 @@ Transform:
   m_GameObject: {fileID: 1304190796}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.79, y: 3.92, z: 0}
+  m_LocalPosition: {x: -5.79, y: 4.11, z: 0}
   m_LocalScale: {x: 4.0662, y: 3.7506, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6251,6 +6668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384454771}
   - component: {fileID: 1384454770}
+  - component: {fileID: 1384454772}
   m_Layer: 0
   m_Name: furniture pack grey outline_138
   m_TagString: Untagged
@@ -6331,6 +6749,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1384454772
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384454769}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.34}
+    newSize: {x: 0.18, y: 0.34}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.18, y: 0.34}
+  m_EdgeRadius: 0
 --- !u!1 &1450717369
 GameObject:
   m_ObjectHideFlags: 0
@@ -6375,11 +6839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c669562cf2eec4f0ea5906f9e5305d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  gameOverPanel: {fileID: 349639894}
-  victoryPanel: {fileID: 290528906}
-  retryButton: {fileID: 665171408}
-  nextLevelButton: {fileID: 1649108858}
-  mainMenuButton: {fileID: 1213806025}
 --- !u!1 &1480851741
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,7 +6984,6 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 128
-  guardAI: {fileID: 0}
 --- !u!23 &1511758088
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7335,7 +7793,6 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 128
-  guardAI: {fileID: 0}
 --- !u!23 &1743552603
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7770,7 +8227,7 @@ Transform:
   m_GameObject: {fileID: 1920096578}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.53, y: 3.83, z: 0}
+  m_LocalPosition: {x: -0.53, y: 4.15, z: 0}
   m_LocalScale: {x: 3.9058998, y: 4.11, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7891,7 +8348,7 @@ Transform:
   m_GameObject: {fileID: 1949881776}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38136983, y: 3.8, z: 0}
+  m_LocalPosition: {x: 0.38136983, y: 4.12, z: 0}
   m_LocalScale: {x: 3.88, y: 4.2592, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7927,7 +8384,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hasJewel: 1
-  uiManager: {fileID: 0}
 --- !u!4 &1963005560
 Transform:
   m_ObjectHideFlags: 0
@@ -8018,8 +8474,6 @@ MonoBehaviour:
   suspicionTime: 0.5
   alertSpeed: 4
   loseSightTime: 3
-  alertIndicator: {fileID: 0}
-  visionTransform: {fileID: 694952717}
 --- !u!212 &2028419220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8852,8 +9306,6 @@ MonoBehaviour:
   suspicionTime: 0.5
   alertSpeed: 4
   loseSightTime: 3
-  alertIndicator: {fileID: 0}
-  visionTransform: {fileID: 643326853}
 --- !u!212 &2092270798
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -9,14 +9,13 @@ public class GameManager : MonoBehaviour
     public GameState State { get; private set; } = GameState.Playing;
     public bool hasJewel = false;
 
-    [SerializeField] private UIManager uiManager;
+    private UIManager uiManager;
 
     private void Awake()
     {
         Instance = this;
         hasJewel = false;
-        if (uiManager == null)
-            uiManager = FindFirstObjectByType<UIManager>();
+        uiManager = FindFirstObjectByType<UIManager>();
     }
 
     public void PlayerDetected()

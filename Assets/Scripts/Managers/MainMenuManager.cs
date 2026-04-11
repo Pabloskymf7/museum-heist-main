@@ -4,15 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField] private Button playButton;
-    [SerializeField] private Button quitButton;
+    private Button playButton;
+    private Button quitButton;
 
     private void Awake()
     {
-        if (playButton == null)
-            playButton = GameObject.Find("PlayButton")?.GetComponent<Button>();
-        if (quitButton == null)
-            quitButton = GameObject.Find("QuitButton")?.GetComponent<Button>();
+        playButton = GameObject.Find("PlayButton")?.GetComponent<Button>();
+        quitButton = GameObject.Find("QuitButton")?.GetComponent<Button>();
 
         playButton?.onClick.AddListener(OnPlayButton);
         quitButton?.onClick.AddListener(OnQuitButton);

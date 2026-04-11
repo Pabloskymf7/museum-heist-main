@@ -5,27 +5,20 @@ public class GuardAI : MonoBehaviour
     public enum GuardState { Patrol, Suspicious, Alert }
     public GuardState CurrentState { get; private set; } = GuardState.Patrol;
 
-    [Header("Patrol")]
-    [SerializeField] private Transform[] waypoints;
-    [SerializeField] private int startWaypointIndex = 0;
-    [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float waypointWaitTime = 1f;
-    [SerializeField] private float waypointReachThreshold = 0.1f;
+    public Transform[] waypoints;
+    public int startWaypointIndex = 0;
+    public float moveSpeed = 2f;
+    public float waypointWaitTime = 1f;
+    public float waypointReachThreshold = 0.1f;
+    public float separationRadius = 1f;
+    public float separationForce = 3f;
+    public float suspicionTime = 0.5f;
+    public float alertSpeed = 4f;
+    public float loseSightTime = 3f;
 
-    [Header("Separation")]
-    [SerializeField] private float separationRadius = 1f;
-    [SerializeField] private float separationForce = 3f;
-
-    [Header("Suspicious")]
-    [SerializeField] private float suspicionTime = 0.5f;
-
-    [Header("Alert")]
-    [SerializeField] private float alertSpeed = 4f;
-    [SerializeField] private float loseSightTime = 3f;
-    [SerializeField] private GameObject alertIndicator; // "!" sprite child GO
-
-    [Header("Vision")]
-    [SerializeField] private Transform visionTransform; // child GO con el cono de visión
+    // Se buscan automáticamente en Awake
+    private GameObject alertIndicator;
+    private Transform visionTransform;
 
     // Internal
     private Rigidbody2D rb;
@@ -46,8 +39,17 @@ public class GuardAI : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.freezeRotation = true;
         currentWaypointIndex = startWaypointIndex;
-        if (alertIndicator != null)
+
+        GuardVision vision = GetComponentInChildren<GuardVision>();
+        if (vision != null) visionTransform = vision.transform;
+
+        // Busca el indicador "!" por nombre entre los hijos
+        Transform indicator = transform.Find("AlertIndicator");
+        if (indicator != null)
+        {
+            alertIndicator = indicator.gameObject;
             alertIndicator.SetActive(false);
+        }
     }
 
     private void Update()
