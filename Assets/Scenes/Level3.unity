@@ -8459,7 +8459,7 @@ MonoBehaviour:
   - {fileID: 1597443088}
   - {fileID: 1931964306}
   startWaypointIndex: 0
-  moveSpeed: 2.8
+  moveSpeed: 2.1
   waypointWaitTime: 1
   waypointReachThreshold: 0.1
   separationRadius: 1
